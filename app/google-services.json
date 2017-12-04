@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "935373771642",
+    "firebase_url": "https://golden-age-b23e1.firebaseio.com",
+    "project_id": "golden-age-b23e1",
+    "storage_bucket": "golden-age-b23e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935373771642:android:25b466480c0d7b9d",
+        "android_client_info": {
+          "package_name": "com.mcs17.goldenage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935373771642-i8mn1k263so2o0pett6s09fhkn5b8tl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYJK-R1IMhArqSJUS2rTjEKc8k41b90lQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

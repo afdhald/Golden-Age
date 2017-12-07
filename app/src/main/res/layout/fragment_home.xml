@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn_konsul"
+            style="@style/HomeButton"
+            android:text="Konsultasi"
+            android:background="@drawable/gradient"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="50dp"
+            android:textAlignment="gravity"/>
+
+        <Button
+            android:id="@+id/mom"
+            style="@style/HomeButton"
+            android:background="@drawable/gradient"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="50dp"
+            android:text="Mom" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/baby"
+            style="@style/HomeButton"
+            android:text="Baby"
+            android:background="@drawable/gradient"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="50dp"
+            android:textAlignment="gravity"/>
+
+        <Button
+            android:id="@+id/main_trip"
+            style="@style/HomeButton"
+            android:background="@drawable/gradient"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="50dp"
+            android:text="Edukasi" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/babys"
+            style="@style/HomeButton"
+            android:text="Rumah Sakit"
+            android:background="@drawable/gradient"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:paddingVertical="50dp"
+            android:paddingHorizontal="10dp"
+            android:textAlignment="gravity"/>
+
+        <Button
+            android:id="@+id/main_trips"
+            style="@style/HomeButton"
+            android:background="@drawable/gradient"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="50dp"
+            android:text="Panic" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
